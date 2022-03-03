@@ -1,6 +1,17 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ 1) Programa Aritmetica.java
+Escreva um programa com 3 funções:
+Função main:
+● Solicita que a pessoa informe dois números (float).
+● Solicita que a pessoa informe a operação aritmética desejada: (1)
+Multiplicação ou (2) Divisão.
+● Chama a função adequada (multiplicacao() ou divisao()) e exibe o
+resultado da operação, de acordo com o que a função retornou.
+Funções multiplicacao() e divisao(): recebem os dois números (float),
+realizam a respectiva operação aritmética e retornam o resultado
+(também float).
  */
 package senai1;
 
