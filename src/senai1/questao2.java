@@ -1,6 +1,30 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ 2) Programa PassagemAerea.java
+Escreva um programa com 2 funções:
+Função main:
+● Solicita que a pessoa informe qual voo gostaria de realizar:
+1) Salvador-Frankfurt; 2) Salvador-Tóquio ou 3) Frankfurt-Tóquio.
+● Solicita que a pessoa informe em qual classe irá viajar:
+1) Econômica; 2) Executiva ou 3) Primeira Classe.
+● Pede que a pessoa informe quantos passageiros farão a viagem.
+
+● Chama e exibe o resultado da função calcularPreco(), passando
+três parâmetros:
+○ A quantidade de passageiros, a classe do voo e a distância do
+
+voo (SSA-FRA: 8377.0 km, SSA-TOK: 17474.0 km ou FRA-
+TOK: 9330.0 km).
+
+Função calcularPreco():
+● Recebe três parâmetros: quantidade de passageiros e classe são
+inteiros, e a distância do voo é um float.
+● Calcula o preço base através da fórmula:
+○ (distância do voo / 5) x quantidade de passageiros
+● Adiciona 10% ao preço base caso a classe seja Executiva.
+● Adiciona 20% ao preço base caso a classe seja Primeira Classe.
+● Retorna o valor do preço final.
  */
 package senai1;
 
